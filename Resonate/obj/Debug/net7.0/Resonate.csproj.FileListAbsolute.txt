@@ -31,3 +31,13 @@ C:\Users\outamation\source\repos\Resonate\Resonate\obj\Debug\net7.0\refint\Reson
 C:\Users\outamation\source\repos\Resonate\Resonate\obj\Debug\net7.0\Resonate.pdb
 C:\Users\outamation\source\repos\Resonate\Resonate\obj\Debug\net7.0\Resonate.genruntimeconfig.cache
 C:\Users\outamation\source\repos\Resonate\Resonate\obj\Debug\net7.0\ref\Resonate.dll
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\ClientApp\package-lock.json
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\ClientApp\package.json
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\ClientApp\tsconfig.json
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\ClientApp\tsconfig.node.json
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\libman.json
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\outamation\source\repos\Resonate\Resonate\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\outamation\source\repos\Resonate\Resonate\obj\Debug\net7.0\Resonate.MvcApplicationPartsAssemblyInfo.cs

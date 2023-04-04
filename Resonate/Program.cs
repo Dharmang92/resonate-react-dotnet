@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http.Headers;
 using Microsoft.Net.Http.Headers;
+using Resonate.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddSpaStaticFiles(configuration =>
 {
     configuration.RootPath = "ClientApp/dist";
 });
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -34,7 +36,13 @@ if (app.Environment.IsDevelopment())
 {
     app.MapWhen(y => y.Request.Path.StartsWithSegments(spaPath), client =>
     {
-        client.UseSpa(spa => spa.UseProxyToSpaDevelopmentServer("https://localhost:6363"));
+        client.UseSpa(spa => spa.UseProxyToSpaDevelopmentServer("https://localhost:3000"));
+    });
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        //options.RoutePrefix = string.Empty;
     });
 }
 else
